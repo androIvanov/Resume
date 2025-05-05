@@ -1,6 +1,6 @@
 .container {
-    background: #3D405B;
-    background: linear-gradient(279deg,rgba(61, 64, 91, 1) 61%, rgba(244, 241, 222, 1) 58%);
+    background: #064789;
+    background: linear-gradient(279deg,rgba(6, 71, 137, 1) 61%, rgba(235, 242, 250, 1) 58%);
     height: 80vh;
     overflow: hidden;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -22,6 +22,7 @@
                 font-size: 40px;
                 font-weight: 600;
                 margin-bottom: 0;
+                white-space: nowrap;
             }
 
             .title {
@@ -75,7 +76,7 @@
     font-size: 17px;
     padding: 2% 13% 2% 13%;
     color: white;
-    background-color: #e07a5f;
+    background-color: #427aa1;
 
     .motivation {
         font-size: 22px;
