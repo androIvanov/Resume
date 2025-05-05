@@ -14,15 +14,15 @@ export default function Home() {
               <p className={style.title}>Frontend Developer</p>
             </div>
             <div className={style.linkIcons}>
-              <img src="../../../public/facebook.png"></img>
-              <img src="../../../public/insta.png"></img>
-              <img src="../../../public/linkedin.png"></img>
+              <img src="/public/images/facebook.png"></img>
+              <img src="/public/images/insta.png"></img>
+              <img src="/public/images/linkedin.png"></img>
             </div>
           </div>
           <div className={style.imageContainer}>
             <img
               className={style.headshot}
-              src="../../../public/resume_1.png"
+              src="/public/images/resume_1.png"
             ></img>
           </div>
         </div>
