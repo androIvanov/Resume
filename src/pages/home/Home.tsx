@@ -20,10 +20,7 @@ export default function Home() {
             </div>
           </div>
           <div className={style.imageContainer}>
-            <img
-              className={style.headshot}
-              src="/src/assets/resume_1.png"
-            ></img>
+            <img className={style.headshot} src="/src/assets/react.svg"></img>
           </div>
         </div>
       </div>
