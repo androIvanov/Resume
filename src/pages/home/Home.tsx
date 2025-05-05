@@ -2,6 +2,9 @@ import { Header } from "../../components/header";
 import style from "./Home.module.scss";
 
 import resume from "../../assets/resume_1.png";
+import insta from "../../assets/insta.png";
+import facebook from "../../assets/facebook.png";
+import linkedin from "../../assets/linkedin.png";
 
 export default function Home() {
   return (
@@ -16,9 +19,9 @@ export default function Home() {
               <p className={style.title}>Frontend Developer</p>
             </div>
             <div className={style.linkIcons}>
-              <img src="src/assets/facebook.png"></img>
-              <img src="src/assets/insta.png"></img>
-              <img src="src/assets/linkedin.png"></img>
+              <img src={facebook}></img>
+              <img src={insta}></img>
+              <img src={linkedin}></img>
             </div>
           </div>
           <div className={style.imageContainer}>
