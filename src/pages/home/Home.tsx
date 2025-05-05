@@ -1,6 +1,8 @@
 import { Header } from "../../components/header";
 import style from "./Home.module.scss";
 
+import resume from "../../assets/resume_1.png";
+
 export default function Home() {
   return (
     <>
@@ -20,7 +22,7 @@ export default function Home() {
             </div>
           </div>
           <div className={style.imageContainer}>
-            <img className={style.headshot} src="/src/assets/react.svg"></img>
+            <img className={style.headshot} src={resume}></img>
           </div>
         </div>
       </div>
